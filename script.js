@@ -1,6 +1,9 @@
-let burger = document.getElementById('burger');
-let navigation = document.getElementById('navigation');
+let burgerButton = document.getElementById('toggleButton');
+let navBar = document.getElementById('menu');
 
-burger.addEventListener('click', function(){
-    navigation.classList.toggle('active');
+
+burgerButton.addEventListener('click', function() {
+    navBar.classList.toggle('toggle');
+    burgerButton.classList.toggle('active');
 })
+

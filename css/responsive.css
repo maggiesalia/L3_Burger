@@ -1,0 +1,21 @@
+@media (max-width: 768px){
+    .burger-navigation{
+      display: none;
+    }
+    .nav-ul{
+      flex-direction: column;
+      line-height: 2em;
+    }
+    .nav-a{
+      color: #fff;
+    }
+    .toggle-menu {
+      display: block;
+  }
+}
+
+@media (max-width: 1024px){
+  .navigation{
+    display: none;
+  }
+}
